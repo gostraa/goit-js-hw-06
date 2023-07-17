@@ -25,6 +25,7 @@ const itemsList = ingredients.map( ingredient => {
 listOfIngredients.append(...itemsList);
 
 
-
 console.log(listOfIngredients);
+
+
 
