@@ -17,7 +17,7 @@ items.forEach(item => {
 // або ще другий варіант
 
 
-items.forEach((item) => {
-    console.log(`Category: ${item.querySelector("h2").textContent}`);
-    console.log(`Elements: ${item.querySelectorAll('li').length}`);
-});
+// items.forEach((item) => {
+//     console.log(`Category: ${item.querySelector("h2").textContent}`);
+//     console.log(`Elements: ${item.querySelectorAll('li').length}`);
+// });

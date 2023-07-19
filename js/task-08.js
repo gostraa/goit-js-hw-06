@@ -12,7 +12,7 @@ formEl.addEventListener("submit", (event) => {
         name: inputEmail.value,
         password : inputPassword.value,
     }
-    formEl.remove()
+    formEl.reset();
     console.log(user);
 });
 
